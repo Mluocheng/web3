@@ -1,5 +1,5 @@
 /**
- * 地址
+ * 创建地址
 */
 
 const Btc = require('bitcoinjs-lib')
@@ -29,6 +29,6 @@ console.log('WIF编码 = '+encoded);
 
 //利用公钥生成地址
 const { address }=Btc.payments.p2pkh({pubkey:keyPair.publicKey, network: TestNet });
-console.log('address = '+address); // muRZ2PpST7CD17ixzX5HjUuY7aJu9xYHtB
+console.log('address = '+address); // mmJs1C5xf9c4tGbdFgBpkvC2TfCz6PHhQ5
 
 
