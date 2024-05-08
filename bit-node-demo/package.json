@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bigi": "^1.4.2",
     "bitcoinjs-lib": "^6.1.5",
     "ecpair": "^2.1.0",
     "request": "^2.88.2",
