@@ -10,8 +10,10 @@
   "license": "ISC",
   "dependencies": {
     "bigi": "^1.4.2",
+    "bip32": "^4.0.0",
     "bitcoinjs-lib": "^6.1.5",
     "ecpair": "^2.1.0",
+    "node-fetch": "2.6.7",
     "request": "^2.88.2",
     "tiny-secp256k1": "^2.2.3",
     "wif": "^4.0.0"
